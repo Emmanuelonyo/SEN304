@@ -1,0 +1,4 @@
+  File "/home/emmanuel/SEN304/buggy/cart_buggy.py", line 45
+    def discount_rate(amount)          # BUG-01: missing colon -> SyntaxError
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expected ':'

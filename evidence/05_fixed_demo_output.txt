@@ -1,0 +1,6 @@
+Subtotal        : N55,000.00
+Average price   : N18,333.33
+Average (empty) : N0.00
+Handled error   : 'Beans' is not in the cart
+Total payable   : N53,212.50
+With MIVA10     : N52,137.50

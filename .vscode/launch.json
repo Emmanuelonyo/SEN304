@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug buggy cart (debug_session.py)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/buggy/debug_session.py",
+      "cwd": "${workspaceFolder}/buggy",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Run fixed cart demo",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.cart",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

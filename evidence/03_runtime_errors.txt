@@ -1,0 +1,12 @@
+>>> c.average_item_price({})
+    return subtotal(cart) / total_qty
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~
+ZeroDivisionError: division by zero
+>>> c.remove_item({'Rice':{'price':1,'qty':1}},'Beans')
+    del cart[name]
+        ~~~~^^^^^^
+KeyError: 'Beans'
+>>> d={};c.add_item(d,'Oil',5000,'2');c.add_item(d,'Yam',100,1);print(c.subtotal(d))
+  File "/tmp/stage/cart_stage2.py", line 41, in subtotal
+    total += items[i]["price"] * items[i]["qty"]
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
